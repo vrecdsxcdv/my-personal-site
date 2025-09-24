@@ -3,7 +3,7 @@ import Section from './Section'
 import Image from './ui/Image'
 
 const images = Array.from({ length: 6 }).map((_, i) => ({
-  src: `/gallery-${i + 1}.jpg`,
+  src: `media/gallery-${i + 1}.jpg`,
   alt: `Фото из поездки или прогулки #${i + 1}`,
 }))
 

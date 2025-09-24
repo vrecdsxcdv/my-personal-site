@@ -8,7 +8,7 @@ const shelves: { title: string; items: Media[] }[] = [
     title: 'Подкасты Арсена Маркаряна',
     items: [
       {
-        cover: '/bebra.jpg',
+        cover: 'media/bebra.jpg',
         title: 'testesterone realesa 2021 эфир 3',
         why: 'отбил.',
         link: '#',
@@ -19,7 +19,7 @@ const shelves: { title: string; items: Media[] }[] = [
     title: 'Фильмы и сериалы',
     items: [
       {
-        cover: '/50.png',
+        cover: 'media/50.png',
         title: '50 oттенков серого',
         why: 'фильм для просмотра с семьей.',
         link: '#',
@@ -30,7 +30,7 @@ const shelves: { title: string; items: Media[] }[] = [
     title: 'Музыка и подкасты',
     items: [
       {
-        cover: '/overdose.png',
+        cover: 'media/overdose.png',
         title: 'овердоз',
         why: 'no coment.',
         link: '#',
