@@ -26,9 +26,9 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
         >
           <Image
-            src="media/me-hero.jpg"
-            alt="[Имя] — портрет для главного экрана"
-            className="w-full h-auto"
+            src="media/me-portrait.jpg"
+            alt="Мой портрет"
+            className="rounded-2xl w-full h-auto"
           />
         </motion.div>
       </div>

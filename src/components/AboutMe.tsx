@@ -6,10 +6,10 @@ export default function AboutMe() {
     <Section id="about" title="Обо мне">
       <div className="grid md:grid-cols-[1fr,1.5fr] gap-8 items-center">
         <Image
-          src="media/me-portrait.jpg"
-          alt="[Имя] портрет, смотрит в камеру"
+          src="media/steal-brainrot.jpg"
+          alt="Steal Brainrot"
           loading="lazy"
-          className="rounded-3xl shadow-soft border border-black/5 dark:border-white/10 w-full object-cover"
+          className="rounded-2xl w-full h-auto"
         />
         <div className="prose prose-neutral dark:prose-invert max-w-none">
           <p>Имею много брейнротов в роблоксе</p>
