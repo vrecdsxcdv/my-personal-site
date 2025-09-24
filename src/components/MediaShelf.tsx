@@ -8,7 +8,7 @@ const shelves: { title: string; items: Media[] }[] = [
     title: 'Подкасты Арсена Маркаряна',
     items: [
       {
-        cover: 'media/bebra.jpg',
+        cover: 'media/bebra.jpeg',
         title: 'testesterone realesa 2021 эфир 3',
         why: 'отбил.',
         link: '#',

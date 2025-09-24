@@ -1,33 +1,34 @@
 import Section from './Section'
-import { Bitcoin, Wallet, Cpu } from 'lucide-react'
+import Image from './ui/Image'
+import { Mail, Send, Instagram } from 'lucide-react'
 
 export default function Contact() {
   return (
-    <Section
-      id="contact"
-      title="Данные крипто кошелька(Логин: user_example
-Почта: example@mail.test
-Кошелёк: 0xFAKE...DEADBEEF
-Пароль QWERTY123456)"
-    >
+    <Section id="contact" title="Как связаться">
       <div className="grid md:grid-cols-[1.2fr,1fr] gap-8 items-center">
         <div className="space-y-4">
-          <p className="text-lg">логин и пароль</p>
+          <p className="text-lg">Буду рад сообщениям и новым идеям.</p>
           <div className="flex gap-3">
             <a className="btn-primary" href="mailto:me@example.com" aria-label="Email">
-              <Bitcoin size={16} className="mr-2" />
-              login
+              <Mail size={16} className="mr-2" />
+              Email
             </a>
             <a className="btn-ghost" href="#" aria-label="Telegram">
-              <Wallet size={16} className="mr-2" />
-              password
+              <Send size={16} className="mr-2" />
+              Telegram
             </a>
             <a className="btn-ghost" href="#" aria-label="Instagram">
-              <Cpu size={16} className="mr-2" />
-              2FA
+              <Instagram size={16} className="mr-2" />
+              Instagram
             </a>
           </div>
         </div>
+        <Image
+          src="media/me-casual.jpg"
+          alt="[Имя] в повседневной обстановке"
+          loading="lazy"
+          className="rounded-2xl border border-black/5 dark:border-white/10 w-full object-cover"
+        />
       </div>
     </Section>
   )

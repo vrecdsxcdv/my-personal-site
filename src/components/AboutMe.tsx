@@ -6,7 +6,7 @@ export default function AboutMe() {
     <Section id="about" title="Обо мне">
       <div className="grid md:grid-cols-[1fr,1.5fr] gap-8 items-center">
         <Image
-          src="stealbrainrot.png"
+          src="media/me-portrait.jpg"
           alt="[Имя] портрет, смотрит в камеру"
           loading="lazy"
           className="rounded-3xl shadow-soft border border-black/5 dark:border-white/10 w-full object-cover"
